@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <div class="container"></div>
+        <h1>Formulario de Contacto</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Asunto</label>
+                <input type="text" id="subject" name="subject" />
+            </div>
+
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="5"></textarea>
+            
+                <div class="form-group">
+                    <label for="company">Compañia</label>
+                    <input type="text" id="company" name="company" />
+                </div>
+
+                <div class="form-group">
+                    <label for="webside">Sitio Web</label>
+                    <input type="url" id="webside" name="webside" />
+                </div>
+
+                <div class="form-group">
+                    <label for="budget">Presupuesto</label>
+                    <input type="number" id="budget" name="budget" />
+                </div>
+
+                <button type="submit">Enviar</button>
+            
+            </form>
+
+
+        <div id="successMessage" class="success-message">¡Mensaje enviado con exito!</div>
+    
+</body>
+</html>
